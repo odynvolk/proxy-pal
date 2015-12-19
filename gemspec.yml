@@ -1,0 +1,28 @@
+name: ProxyPal
+summary: Find some proxies!
+description:
+  ProxyPal is a simple proxy scraper and tester.
+
+license: MIT
+authors: Alexi Rahman
+email: alexi.rahman@r76.se
+homepage: https://github.com/odynvolk/proxy-pal
+post_install_message: |
+  **************************************************************************
+  Generate a new Ruby library:
+
+      $ mine my_library --rspec --yard
+
+  Build the library:
+
+      $ rake build
+
+  Release the library to rubygems.org:
+
+      $ rake release
+
+  **************************************************************************
+required_ruby_version: ">= 1.9.1"
+
+development_dependencies:
+  bundler: ~> 1.0

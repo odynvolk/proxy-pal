@@ -1,0 +1,10 @@
+---
+number_threads: 10
+sleep_between_runs: 60
+max_latency: 4
+proxies:
+  sources:
+  - http://sslproxies24.blogspot.com/feeds/posts/default
+  file: "/some-path/proxies.txt"
+  to_test_file: "/some-path/proxies_to_test.txt"
+  to_test_maximum: 5000
